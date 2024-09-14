@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to HTML Converter</title>
+</head>
+<body>
+    <h1>Convert PDF to HTML</h1>
+    <form id="pdfForm" enctype="multipart/form-data">
+        <input type="file" id="pdfFile" accept="application/pdf" required>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Converted HTML String:</h2>
+    <textarea id="htmlResult" rows="10" cols="100" readonly></textarea>
+
+    <script src="app.js"></script>
+</body>
+</html>
